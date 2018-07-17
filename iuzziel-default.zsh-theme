@@ -63,8 +63,7 @@ prompt_git() {
 # PROMPT='
 # %{$fg[green]%}%* %{$fg_bold[green]%}${PWD/#$HOME/~}%{$reset_color%}$(git_prompt_info) %{$reset_color%}
 # %{$fg_bold[blue]%}>%{$reset_color%} '
-PROMPT='
-%{$fg[green]%}%* %{$fg_bold[green]%}${PWD/#$HOME/~}%{$reset_color%} $(prompt_git)%{$reset_color%}
+PROMPT='%{$fg[green]%}%* %{$fg_bold[green]%}${PWD/#$HOME/~}%{$reset_color%} $(prompt_git)%{$reset_color%}
 %{$fg_bold[blue]%}>%{$reset_color%} '
 
 # Must use Powerline font, for \uE0A0 to render.
